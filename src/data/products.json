@@ -1,0 +1,32 @@
+[
+  {
+    "id": "A1",
+    "name": "Apple",
+    "price": 29.99
+  },
+  {
+    "id": "O1",
+    "name": "Orange",
+    "price": 35.00
+  },
+  {
+    "id": "L1",
+    "name": "Lemon",
+    "price": 40.00
+  },
+  {
+    "id": "A2",
+    "name": "10 Apples",
+    "price": 299.90
+  },
+  {
+    "id": "A3",
+    "name": "10 Apples & 5 Oranges",
+    "price": 474.90
+  },
+  {
+    "id": "L2",
+    "name": "5 Lemons & 5 Apples",
+    "price": 345.95
+  }
+]
