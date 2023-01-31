@@ -27,28 +27,28 @@
       </div>
     <div class="flex flex-col space-y-2">
       <div class="flex flex-row justify-between space-x-3">
-        <button @click="add(100)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P100</button>
-        <button @click="add(200)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P200</button>
-        <button @click="add(500)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P500</button>
-        <button @click="add(1000)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P1000</button>
+        <button @click="add(100)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱100</button>
+        <button @click="add(200)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱200</button>
+        <button @click="add(500)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱500</button>
+        <button @click="add(1000)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱1000</button>
       </div>
       <div class="flex flex-row justify-between space-x-3">
         <button @click="calculator('7')" class="bg-white w-full rounded-md shadow-md hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">7</button>
         <button @click="calculator('8')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">8</button>
         <button @click="calculator('9')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">9</button>
-        <button @click="add(10)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P10</button>
+        <button @click="add(10)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱10</button>
       </div>
       <div class="flex flex-row justify-between space-x-3">
         <button @click="calculator('4')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">4</button>
         <button @click="calculator('5')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">5</button>
         <button @click="calculator('6')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">6</button>
-        <button @click="add(20)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P20</button>
+        <button @click="add(20)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱20</button>
       </div>
       <div class="flex flex-row justify-between space-x-3">
         <button @click="calculator('1')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">1</button>
         <button @click="calculator('2')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">2</button>
         <button @click="calculator('3')" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">3</button>
-        <button @click="add(50)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">P50</button>
+        <button @click="add(50)" class="bg-slate-500 w-full text-white rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-200 hover:shadow-sm">₱50</button>
       </div>
       <div class="flex flex-row justify-between space-x-3">
         <button @click="clearCharacters()" class="bg-white w-full rounded-md shadow-md border hover:border-slate-200 py-2 hover:shadow-slate-500 hover:shadow-sm">C</button>
